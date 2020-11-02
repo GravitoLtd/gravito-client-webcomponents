@@ -44,3 +44,5 @@ Now you place the login web-components where you want to use them.
 	gravitoendpointurl="https://dev-api.gravito.net/api">
 </gravito-magiclink-button>
 ```
+# Example
+![alt text](https://gravitocdn.blob.core.windows.net/logos/gitHubDoc.PNG)
