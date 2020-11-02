@@ -1,6 +1,6 @@
 # Getting Started
 
-Any application that uses Gravito As their identity provider should be registered as a customer with Gravito.Click [here](https://docs.gravito.net/) to Register with Gravito.
+Any application that uses Gravito As their identity provider should be registered as a customer with Gravito.Click [here](https://docs.gravito.net/) to know how to Register with Gravito.
 On succesfull registeration you will get your client config. details Create an window scope object by name __gravitoWC_identityConfig__ with this config inside the index.html page of your web app.
 ```
 <script>
