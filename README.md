@@ -43,4 +43,4 @@ Now you place the login web-components where you want to use them.
 </gravito-magiclink-button>
 ```
 # Example
-![alt text](https://gravitocdn.blob.core.windows.net/logos/gitHubDoc.PNG)
+![Preview](https://gravitocdn.blob.core.windows.net/logos/gitdocspreview.png)
