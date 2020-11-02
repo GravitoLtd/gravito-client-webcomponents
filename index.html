@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        window.gravitoWC_identityConfig = {
+            client_id: 'client_id',
+            grant_type: 'client_credentials',
+            scope: 'API'
+        }
+    </script>
+    <script src="https://gravitocdn.blob.core.windows.net/webcomponents/webcomponent.js"></script>
+    <!-- TO LOGIN WITH GOOGLE -->
+    <gravito-google-button 	
+        appid="YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com" 
+        redirecturl="URL_TO_REDIRECT_AFTER_LOGIN" 
+        gravitoendpointurl="https://dev-api.gravito.net/api" 
+        buttontext="Login with google">
+    </gravito-google-button>
+    
+    <!-- //TO LOGIN WITH FACEBOOK -->
+    <gravito-fb-button 
+        appid="YOUR_FACEBOOK_APPID" 
+        redirecturl="URL_TO_REDIRECT_AFTER_LOGIN" 
+        gravitoendpointurl="https://dev-api.gravito.net/api" 
+        buttontext="Login with facebook">
+    </gravito-fb-button>
+    
+    <!-- //TO LOGIN USING GRAVITO MAGICLINK -->
+    <gravito-magiclink-button 
+        redirecturl="URL_TO_REDIRECT_AFTER_LOGIN"
+        gravitoendpointurl="https://dev-api.gravito.net/api">
+    </gravito-magiclink-button>
+</body>
+
+</html>
