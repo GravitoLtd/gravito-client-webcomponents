@@ -7,10 +7,8 @@ On succesfull registeration you will get your client config. details Create an w
 
 window.gravitoWC_identityConfig  = {
 	client_id: 'client_id',
-	client_secret: 'client_secret',
 	grant_type: 'client_credentials',
 	scope: 'API',
-	authority: 'https://dev-identity.gravito.net'
 }
 
 </script>
