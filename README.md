@@ -24,7 +24,6 @@ Now you place the login web-components where you want to use them.
 <gravito-google-button 	
 	appid="YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com" 
 	redirecturl="URL_TO_REDIRECT_AFTER_LOGIN" 
-	gravitoendpointurl="https://dev-api.gravito.net/api" 
 	buttontext="Login with google">
 </gravito-google-button>
 
@@ -32,15 +31,14 @@ Now you place the login web-components where you want to use them.
 <gravito-fb-button 
 	appid="YOUR_FACEBOOK_APPID" 
 	redirecturl="URL_TO_REDIRECT_AFTER_LOGIN" 
-	gravitoendpointurl="https://dev-api.gravito.net/api" 
 	buttontext="Login with facebook">
 </gravito-fb-button>
 
 <!-- TO LOGIN USING GRAVITO MAGICLINK -->
 <gravito-magiclink-button 
 	redirecturl="URL_TO_REDIRECT_AFTER_LOGIN"
-	gravitoendpointurl="https://dev-api.gravito.net/api">
+	>
 </gravito-magiclink-button>
 ```
 # Example
-![Preview](https://gravitocdn.blob.core.windows.net/logos/gitdocspreview.png)
+![Preview](https://gravitocdn.blob.core.windows.net/logos/webcomponetsdocs.PNG)
